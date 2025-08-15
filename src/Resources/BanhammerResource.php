@@ -29,7 +29,7 @@ class BanhammerResource extends Resource
         return config('filament-banhammer.navigation_group');
     }
 
-    protected static ?string $navigationIcon = 'heroicon-o-no-symbol';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-no-symbol';
 
     public static function form(Form $form): Form
     {
