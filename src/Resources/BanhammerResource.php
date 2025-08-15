@@ -3,8 +3,8 @@
 namespace Gerenuk\FilamentBanhammer\Resources;
 
 use Filament\Forms\Components\DatePicker;
-use Filament\Forms\Form;
 use Filament\Resources\Resource;
+use Filament\Schemas\Schema;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\BulkActionGroup;
 use Filament\Tables\Actions\ExportBulkAction;
@@ -31,10 +31,10 @@ class BanhammerResource extends Resource
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-no-symbol';
 
-    public static function form(Form $form): Form
+    public static function form(Schema $schema): Schema
     {
-        return $form
-            ->schema([]);
+        return $schema
+            ->components([]);
     }
 
     public static function table(Table $table): Table
