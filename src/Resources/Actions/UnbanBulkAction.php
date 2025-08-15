@@ -3,7 +3,7 @@
 namespace Gerenuk\FilamentBanhammer\Resources\Actions;
 
 use Filament\Actions\Concerns\CanCustomizeProcess;
-use Filament\Tables\Actions\BulkAction;
+use Filament\Actions\BulkAction;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 

@@ -3,7 +3,7 @@
 namespace Gerenuk\FilamentBanhammer\Resources\Actions;
 
 use Filament\Actions\Concerns\CanCustomizeProcess;
-use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
 use Illuminate\Database\Eloquent\Model;
 
 class UnbanAction extends Action
